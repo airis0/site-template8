@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sample-Site8</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<div id="footerNavLink"><a href="#footerNav">Menu</a></div>
+		<div id="headerNav">
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./contents.html">Contents</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="container">
+		
+		<div id="mainVisual">
+			<div id="mainText">
+				<h1>Sample-Site</h1>
+				<h2>Catch-Copy</h2>
+			</div>
+			<img src="images/main.jpg">
+		</div>
+
+		<div id="main">
+			
+			<div id="contact">
+				<h1 class="pageTitle">Contact</h1>
+				<section>
+					<form method="post" action="/">
+						<label>お名前<br><br>
+							<input type="text" name="name" required>
+						</label>
+						<br><br>
+						<label>電話番号<br><br>
+							<input type="tel" name="phone-number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678" required>
+						</label>
+						<br><br>
+						<label>メールアドレス<br><br>
+							<input type="email" name="mail" placeholder="mail123address@example.com" maxlength="50" required>
+						</label>
+						<br><br>
+						<label>件名<br><br>
+							<input type="text" name="subject" maxlength="200" required>
+						</label>
+						<br><br>
+						<label>内容<br><br>
+							<textarea name="Content" id="Content" cols="30" rows="10" required></textarea>
+						</label>        
+						<br><br>
+						<button type="submit">送信する</button>
+					</form>
+				</section>
+			</div>
+
+		</div>
+
+		<div id="sub">
+			<h2>Sub</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			<p>Aenean commodo ligula eget dolor.</p>
+			<p>Aenean massa.</p>
+			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+			<p>Nulla consequat massa quis enim.</p>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<div id="footerNav">
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./contents.html">Contents</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<p>Copyright © 2021 Sample-Site. All Rights Reserved.</p>
+	</div>
+
+</body>
+</html>
